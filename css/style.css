@@ -950,10 +950,10 @@ a:hover .subscribe__link {
 
 .drop__name {
     color: #232323;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: 0.35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
 }
 
 .drop__menu {
@@ -965,7 +965,8 @@ letter-spacing: 0.35px;
 .form__drop {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;;
+    align-items: flex-start;
+    ;
     flex-direction: column;
     position: absolute;
     left: 0px;
@@ -977,14 +978,17 @@ letter-spacing: 0.35px;
     box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2);
 }
 
-.form__drop::after, .form__drop::before {
+.form__drop::after,
+.form__drop::before {
     content: '';
     position: absolute;
     background: #fff;
     left: 69px;
     top: -5px;
-    width: 10px; height: 10px;
-    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2); /* Добавляем тень для уголка */
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2);
+    /* Добавляем тень для уголка */
     z-index: -1;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -996,9 +1000,9 @@ letter-spacing: 0.35px;
 
 .drop__a {
     color: #4f4f4f;
-font-size: 14px;
-font-weight: 400;
-letter-spacing: 0.35px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
 }
 
 .drop__a:hover {
@@ -1040,14 +1044,17 @@ letter-spacing: 0.35px;
     box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2);
 }
 
-.cart__drop::after, .cart__drop::before {
+.cart__drop::after,
+.cart__drop::before {
     content: '';
     position: absolute;
     background: #fff;
     left: 25px;
     top: -5px;
-    width: 10px; height: 10px;
-    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2); /* Добавляем тень для уголка */
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2);
+    /* Добавляем тень для уголка */
     z-index: -1;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1081,29 +1088,29 @@ letter-spacing: 0.35px;
 
 .prod__name {
     color: #222222;
-font-size: 12px;
-font-weight: 900;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .fa-times-circle {
     color: #c0c0c0;
-font-size: 16px;
-font-weight: 400;
-text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
     margin-top: 40px;
     margin-left: 55px;
 }
 
 .prod__price {
     color: #f16d7f;
-font-size: 12px;
-font-weight: 400;
-text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
 
-font-size: 10px;
+    font-size: 10px;
     margin-top: 12px;
 }
 
@@ -1116,9 +1123,9 @@ font-size: 10px;
 
 .cart__total__price {
     color: #222222;
-font-size: 16px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .cart__button {
@@ -1130,9 +1137,9 @@ text-transform: uppercase;
     border: 1px solid #eaeaea;
     margin-bottom: 20px;
     color: #4a4a4a;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .cart__button:hover {

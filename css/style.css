@@ -26,9 +26,16 @@ a {
 .form__browse {
     color: #222222;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 0.35px;
 }
+
+.form__browse::-webkit-details-marker {
+    display: none;
+}
+
+
+
 
 .logo {
     color: #222222;
@@ -105,6 +112,7 @@ a {
     padding-right: 14px;
     padding-left: 14px;
     line-height: 38px;
+    position: relative;
 }
 
 
@@ -117,6 +125,8 @@ a {
     letter-spacing: 0.35px;
     margin-left: 8px;
 }
+
+
 
 
 .form {
@@ -332,7 +342,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .fetured__item:hover {
@@ -491,7 +501,7 @@ a {
 }
 
 .sales__mini {
-/*    height: 529px;*/
+    /*    height: 529px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -692,8 +702,6 @@ a:hover .subscribe__link {
     padding: 0 30px;
 }
 
-
-
 .subscribe__button {
     height: 46px;
     padding-left: 18px;
@@ -807,14 +815,9 @@ a:hover .subscribe__link {
 
 }
 
-
-
 .copyright__link:hover social2:after {
     color: #f7f7f8;
 }
-
-
-
 
 .copyright__social {
     display: flex;
@@ -934,12 +937,6 @@ a:hover .subscribe__link {
     padding: 20px 15px;
 }
 
-
-
-
-
-
-
 .futured__a {
     color: #222222;
     font-size: 13px;
@@ -949,4 +946,64 @@ a:hover .subscribe__link {
 
 .futured__a:hover {
     color: #f16d7f;
+}
+
+.drop__name {
+    color: #232323;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.35px;
+}
+
+.drop__menu {
+    list-style-type: none;
+    padding-left: 5px;
+    margin-bottom: 19px;
+}
+
+.form__drop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 262px;
+    padding: 19px 0 0 15px;
+    background-color: #fff;
+    border-radius: 5px;
+/*    border: 1px solid #e8e8e8;*/
+    box-shadow: 0 0 15px -2px rgba(0, 0, 0, 0.2);
+}
+
+.drop__a {
+    color: #4f4f4f;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.35px;
+}
+
+.drop__a:hover {
+    color: #f16d7f;
+}
+
+.drop__hr {
+    width: 90%;
+    height: 2px;
+    background-color: #e8e8e8;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+.drop_trgl::after {
+    content: ''; 
+    position: absolute; 
+    left: 66px; 
+    bottom: -3px; 
+    border: 8px solid transparent; border-bottom: 8px solid #fff; 
+    z-index: 1;
 }

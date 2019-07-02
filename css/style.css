@@ -34,9 +34,6 @@ a {
     display: none;
 }
 
-
-
-
 .logo {
     color: #222222;
     font-size: 27px;
@@ -126,6 +123,47 @@ a {
     margin-left: 8px;
 }
 
+.symbol__aside_1:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: #6f6e6e;
+    margin-left: 133px;
+}
+
+.symbol__aside_2:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: #6f6e6e;
+    margin-left: 164px;
+}
+
+.symbol__aside_3:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    color: #6f6e6e;
+    margin-left: 138px;
+}
+
+details.products__category[open] .symbol__aside_1:after {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    color: #ef5b70;
+}
+
+details.products__category[open] .symbol__aside_2:after {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    color: #ef5b70;
+}
+
+details.products__category[open] .symbol__aside_3:after {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    color: #ef5b70;
+}
+
+
+
 
 
 
@@ -158,14 +196,15 @@ a {
 }
 
 .form__button {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 11px;
-    padding-right: 11px;
     margin-left: -1px;
     border-radius: 0 3px 3px 0;
     border: 1px solid #e6e6e6;
     background-color: #ffffff;
+    height: 41px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__link {
@@ -758,7 +797,7 @@ a:hover .subscribe__link {
 }
 
 .footer__shop {
-    width: 154px;
+    width: 164px;
 }
 
 .footer_ul {
@@ -1165,7 +1204,7 @@ a:hover .subscribe__link {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 309px;
+    width: 329px;
     justify-content: center;
 }
 
@@ -1183,6 +1222,7 @@ font-size: 14px;
 font-weight: 300;
 letter-spacing: 0.30px;
     line-height: 25px;
+    text-align: justify;
 }
 
 .sales__korona {
@@ -1276,4 +1316,132 @@ letter-spacing: 0.35px;
 
 .menu__list:hover .drop__flex {
     display: flex;
+}
+
+.breadcrumb__container {
+    background-color: #f8f3f4;
+}
+
+.breadcrumb__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 148px;
+}
+
+.breadcrumb__h1 {
+    color: #f16d7f;
+font-size: 24px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.breadcrumb__ol {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #636363;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #f8f3f4;
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+.breadcrumb__a {
+    text-decoration: none;
+}
+
+.breadcrumb__a:hover {
+    color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+
+
+.breadcrumb__item::after {
+    content: "/";
+    padding: 0px 10px 0px 10px;
+}
+
+.breadcrumb__item:last-of-type::after {
+    content: "";
+}
+
+.breadcrumb__item:last-of-type {
+    color: #f16d7f;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.products_content {
+    display: flex;
+    justify-content: space-between;
+    height: 1600px;
+    margin-top: 60px;
+}
+
+.products__sidebar {
+    width: 245px;
+}
+
+.products__category_style::-webkit-details-marker {
+    display: none;
+}
+
+.products__category_style {
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+    padding-left: 11px;
+     border-left: 5px solid #ef5b70;
+    border-bottom: 1px solid #ebebeb;
+}
+
+details.products__category[open] .products__category_style {
+    color: #ef5b70;
+}
+
+.products__category_style: {
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.products__category {
+    display: inline-block;
+    line-height: 40px;
+    width: 250px;
+    margin-bottom: 18px;
+}
+
+.products__summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products__category__inside {
+    padding-left: 17px;
+    padding-top: 10px;
+}
+
+.products__nav {
+    list-style-type: none;
+}
+
+.products__nav__a {
+    color: #6f6e6e;
+font-size: 14px;
+font-weight: 400;
+}
+
+.products__nav__a:hover {
+    color: #ef5b70;
 }

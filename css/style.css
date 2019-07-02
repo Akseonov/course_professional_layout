@@ -1829,3 +1829,61 @@ font-weight: bold;
 }
 
 
+
+.checkout {
+    margin-top: 89px;
+    height: 1025px;
+}
+
+.checkout__h1 {
+    color: #222222;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.checkout__summary {
+    color: #222222;
+font-size: 16px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.checkout__summary::-webkit-details-marker {
+    display: none;
+}
+
+.checkout__details__content {
+    margin: 35px 0 0 39px;
+    display: flex;
+}
+
+.checkout__details_h1 {
+    color: #222222;
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.checkout__details_p {
+    color: #b3b2b2;
+font-size: 13px;
+font-weight: 400;
+}
+
+.checkout__radio {
+    color: #222222;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+    margin-top: 30px;
+}
+.checkout__radio_1 {
+    color: #222222;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 33px;
+}

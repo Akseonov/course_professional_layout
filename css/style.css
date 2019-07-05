@@ -1215,7 +1215,7 @@ a:hover .subscribe__link {
     position: relative;
 }
 
-.header__cart__block:focus .cart__drop {
+.header__cart__block:hover .cart__drop {
     display: flex;
 }
 
@@ -1226,7 +1226,7 @@ a:hover .subscribe__link {
     flex-direction: column;
     position: absolute;
     left: 0px;
-    top: 60px;
+    top: 50px;
     width: 262px;
     padding: 19px 0 0 0;
     background-color: #fff;
@@ -1319,7 +1319,7 @@ a:hover .subscribe__link {
 }
 
 .cart__button {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     height: 50px;
@@ -2680,4 +2680,23 @@ text-transform: uppercase;
 .you_may_like_cont {
     display: flex;
     justify-content: space-between;
+}
+
+.cart__button_a {
+    display: inline-flex;
+    height: 50px;
+    width: 225px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart__button_a:hover {
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
 }

@@ -2,4 +2,9 @@
   margin: 0;
   padding: 0; }
 
+.header {
+  width: 1600px;
+  height: 100px;
+  background-color: wheat; }
+
 /*# sourceMappingURL=style.css.map */

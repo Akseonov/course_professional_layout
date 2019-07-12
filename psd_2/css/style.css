@@ -2,8 +2,26 @@
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
+body {
+  font-family: Myriad Pro, serif; }
+
+h1 {
+  color: #363636;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px; }
+
+h2 {
+  color: #363636;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px; }
+
 .header {
-  width: 1600px;
+  width: 320px;
   height: 100px;
   background-color: wheat; }
 
